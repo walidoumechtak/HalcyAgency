@@ -4,3 +4,36 @@
     background: linear-gradient(to right, #7324A0, #AE3C80);
     padding-top: 60px;
 }
+
+
+.animate-hero1 {
+    animation: animateHero1 1s ease-in-out infinite;
+}
+
+@keyframes animateHero1 {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes animateHero2 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.animate-hero2 {
+    animation: animateHero2 1s ease-in-out infinite;
+}

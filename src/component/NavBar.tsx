@@ -26,7 +26,7 @@ function NavBar() {
             <span className="flex items-center self-center whitespace-nowrap text-3xl pl-3 md:pl-0 text-white"> <SiWebmoney className="text-orange-400 mr-4"/> Halcy <span className="font-bold hidden sm:block ml-2"> Agency </span></span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-            <button className="bg-orange-400 text-white py-3 px-6 rounded-3xl hidden lg :block font-bold hover:bg-white
+            <button className="bg-orange-400 text-white py-3 px-6 rounded-3xl hidden lg:block font-bold hover:bg-white
                 transition-all duration-300 hover:text-orange-400 hover:-translate-y-1
                 hover:shadow-[0px_7px_7px_0px_rgba(255,255,255,0.5)]">
                     Get In Touch Now
