@@ -20,8 +20,8 @@ function NavBar() {
     }, []);
 
   return (        
-    <div className={`w-full pt-2 fixed ${scrolled ? 'bg-[#7324A0]' : 'md:bg-transparent bg-[#7324A0]'}`}>
-        <Navbar className="container mx-auto w-full md:bg-transparent bg-[#7324A0] ">
+    <div className={`w-full p-2 z-50 transition-all duration-700 fixed ${scrolled ? 'bg-[#7324A0]' : 'md:bg-transparent bg-[#7324A0]'}`}>
+        <Navbar className="container flex items-center justify-between mx-auto w-full md:bg-transparent bg-[#7324A0] ">
         <Navbar.Brand href="https://flowbite-react.com">
             <span className="flex items-center self-center whitespace-nowrap text-3xl pl-3 md:pl-0 text-white"> <SiWebmoney className="text-orange-400 mr-4"/> Halcy <span className="font-bold hidden sm:block ml-2"> Agency </span></span>
         </Navbar.Brand>

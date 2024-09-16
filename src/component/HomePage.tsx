@@ -19,8 +19,8 @@ function HomePage() {
                 </div>
                 <div className='relative w-1/3 hidden lg:block'>
                     <img src={heroContainer} alt="heor Container image"/>
-                    <img className="animate-hero1 absolute bottom-2 hidden 2xl:block right-40" src={hero1} alt="" />
-                    <img className='animate-hero2 absolute bottom-40 hidden 2xl:block left-20' src={hero2} alt="" />
+                    <img className="animate-hero absolute bottom-2 hidden 2xl:block right-40" src={hero1} alt="" />
+                    <img className='animate-hero absolute bottom-40 hidden 2xl:block left-20' src={hero2} alt="" />
                 </div>
             </div>
         </div>        
