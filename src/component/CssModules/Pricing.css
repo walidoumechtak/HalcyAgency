@@ -1,0 +1,13 @@
+.pricing {
+    background-image: url('../../assets/pricingBackground.png');
+    width: 100%;
+}
+
+.priceShape{
+    background-image: url('../../assets/priceShape.png');
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
