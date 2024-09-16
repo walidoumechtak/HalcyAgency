@@ -10,9 +10,9 @@ function Pricing() {
 
             {/* --------------- ---------------- */}
 
-            {/* <div className="flex lg:justify-between justify-center md:items-center w-[80%] flex-col md:flex-row flex-wrap py-20"> */}
-            <div className="flex lg:justify-between items-center justify-center w-[80%] md:flex-row flex-col flex-wrap py-20">
-                <div className="flex flex-col items-center bg-white shadow-md w-[350px] mb-6  px-6 py-8
+            {/* <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-40 w-[80%]  py-20"> */}
+            <div className="flex 2xl:justify-between items-center justify-center w-[80%] md:flex-row gap-10 flex-col flex-wrap py-20">
+                <div className="flex flex-col items-center bg-white shadow-md w-[350px] mb-6  px-6 py-8 
                     hover:shadow-lg hover:translate-y-2 transition-all duration-500">
                     <div className="priceShape mb-6 flex flex-col items-center justify-center">
                         <h1 className="font-semibold mb-1 text-5xl">Basic</h1>
@@ -26,7 +26,7 @@ function Pricing() {
                     </div>
                 </div>
                 {/* -------------------------------------------------- */}
-                <div className="flex flex-col items-center bg-white shadow-md w-[350px] mb-6 px-6 py-8
+                <div className="flex flex-col items-center bg-white shadow-md w-[350px] mb-6 px-6 py-8 
                     hover:shadow-lg hover:translate-y-2 transition-all duration-500">
                     <div className="priceShape mb-6 flex flex-col items-center justify-center">
                         <h1 className="font-semibold mb-1 text-5xl">Standard</h1>
