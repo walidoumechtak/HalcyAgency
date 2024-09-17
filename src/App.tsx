@@ -1,22 +1,20 @@
-import React from 'react';
 import './App.css';
-import NavBar from './component/NavBar';
-import HomePage from './component/HomePage';
-import Footer from './component/Footer';
-import Features from './component/Features';
-import Pricing from './component/Pricing';
-import Team from './component/Team';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
 
 
 function App() {
+  const isRootPath = window.location.pathname === '/';
+
+  // Rest of your code...
+
   return (
     <>
-      <NavBar />
-      <HomePage />
-      <Features/>
-      <Pricing />
-      <Team />
-      {/* <Footer/> */}
+      {
+        isRootPath ? <></>
+                   : 
+                     <></>
+    }
     </>
   );
 }

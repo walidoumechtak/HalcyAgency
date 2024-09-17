@@ -5,7 +5,7 @@ import hero2 from '../assets/hero2.png';
 
 function HomePage() {
     return (
-        <div className='homePage w-full'>
+        <div id='Home' className='homePage w-full'>
             <div className='flex items-center px-6 md:px-0 justify-around h-full container w-full mx-auto'>
                 <div className='flex items-start flex-col lg:w-1/3 w-full'>
                     <h1 className='text-white text-6xl mb-8'>Rank Your Local Business with Hancy </h1>

@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    background: url('../../assets/footer.jpg') no-repeat center center;
+}
+
+@media (max-width: 998px) {
+    .footer {
+        background: linear-gradient(to right, #7324A0, #AE3C80) !important;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .footer-logo{
+        text-align: center;
+        width: 100%;
+    }
+}

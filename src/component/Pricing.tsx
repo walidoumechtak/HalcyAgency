@@ -3,7 +3,7 @@ import "./CssModules/Pricing.css";
 
 function Pricing() {
     return (
-        <div className="w-full pricing">
+        <div id="Pricing" className="w-full pricing">
         <div className="container mx-auto pt-20 flex flex-col items-center">
             <h3 className="text-xl mb-4 text-orange-400 text-center px-4">Pricing</h3>
             <h2 className="text-4xl mb-4 px-4 text-center">Our Best Pricing Plan</h2>

@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Team() {
     return (
-        <div className="container mx-auto pt-20 flex flex-col items-center">
+        <div id="Team" className="container mx-auto pt-20 flex flex-col items-center">
             <h3 className="text-xl mb-4 text-orange-400 text-center px-4">Team</h3>
             <h2 className="text-4xl mb-4 px-4 text-center">Our Specialist</h2>
             <p className="text-center px-4"> Conveniently customize proactive web services for leveraged interfaces without Globally  </p>
