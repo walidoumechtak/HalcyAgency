@@ -37,12 +37,12 @@ function NavBar() {
                 <Navbar.Toggle className="text-white hover:bg-transparent pr-3 md:pr-0 focus:ring-transparent"/>
             </div>
             <Navbar.Collapse>
-                <Navbar.Link href="#Home" className="font-bold hover:text-[#7324A0]  md:hover:text-white text-white">
+                <Navbar.Link  onClick={() => navigate('/')} href="#Home" className="font-bold hover:text-[#7324A0]  md:hover:text-white text-white">
                     Home
                 </Navbar.Link>  
-                <Navbar.Link className="font-semibold text-white md:hover:text-white hover:text-[#7324A0]" href="#Features">Features</Navbar.Link>
-                <Navbar.Link className="font-semibold text-white hover:text-[#7324A0] md:hover:text-white" href="#Pricing">Pricing</Navbar.Link>
-                <Navbar.Link className="font-semibold text-white hover:text-[#7324A0] md:hover:text-white" href="#Team">Team</Navbar.Link>
+                <Navbar.Link className="font-semibold text-white md:hover:text-white hover:text-[#7324A0]" onClick={() => navigate('/')} href="#Features">Features</Navbar.Link>
+                <Navbar.Link className="font-semibold text-white hover:text-[#7324A0] md:hover:text-white" onClick={() => navigate('/')} href="#Pricing">Pricing</Navbar.Link>
+                <Navbar.Link className="font-semibold text-white hover:text-[#7324A0] md:hover:text-white" onClick={() => navigate('/')} href="#Team">Team</Navbar.Link>
                 <Navbar.Link className="font-semibold text-white hover:text-[#7324A0] md:hover:text-white" href="#" onClick={() => navigate('/contact')}>Contact</Navbar.Link>
             </Navbar.Collapse>
             </Navbar>

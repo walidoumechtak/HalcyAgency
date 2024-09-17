@@ -1,6 +1,6 @@
 .contact {
     width: 100%;
-    height: 100vh;
+    /* height: 100%; */
     background: linear-gradient(to right, #7324A0, #AE3C80);
-    padding-top: 60px;
+    padding: 100px 20px;
 }
