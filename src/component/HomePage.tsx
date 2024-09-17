@@ -24,9 +24,9 @@ function HomePage() {
                 </button>
                 </div>
                 <div className='relative w-1/3 hidden lg:block'>
-                    <img src={heroContainer} alt="heor Container image"/>
-                    <img className="animate-hero absolute bottom-2 hidden 2xl:block right-40" src={hero1} alt="" />
-                    <img className='animate-hero absolute bottom-40 hidden 2xl:block left-20' src={hero2} alt="" />
+                    <img src={heroContainer} alt="heorContainerImage"/>
+                    <img className="animate-hero absolute bottom-2 hidden 2xl:block right-40" src={hero1} alt="hero1" />
+                    <img className='animate-hero absolute bottom-40 hidden 2xl:block left-20' src={hero2} alt="hero2" />
                 </div>
             </div>
         </div>        

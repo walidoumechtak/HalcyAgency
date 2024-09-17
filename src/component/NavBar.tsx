@@ -1,7 +1,7 @@
 
 "use client";
 
-import { Button, Navbar } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import { useEffect, useState } from "react";
 import { SiWebmoney } from "react-icons/si";
 import { useNavigate } from "react-router-dom";

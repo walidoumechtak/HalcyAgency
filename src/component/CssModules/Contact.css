@@ -3,4 +3,14 @@
     /* height: 100%; */
     background: linear-gradient(to right, #7324A0, #AE3C80);
     padding: 100px 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+@media (max-width: 1280px) {
+    .contact {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
 }
